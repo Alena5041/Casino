@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul class="menu">
+            <li><a class="orange" href="#">Все игры</a></li>
+            <li><a class="orange" href="#">Пополнение счета</a></li>
+            <li><a class="orange" href="#">Получить выигрыш</a></li>
+            <li><a class="orange" href="#">Бонусы</a></li>
+            <li><a class="orange" href="#">Мобильная версия</a></li>
+            <li><a class="orange" href="#">Контакты</a></li>
+          </ul>
+          <div class="secondMenu">
+            <div class="registration">
+              <a class="stillOrange" href="#"><p class="fa fa-bolt flash blue"></p>Быстрая регистрация</a>
+            </div>
+            <div class="icons">
+              <a href="#" class="fa fa-facebook icon F"></a>
+              <a href="#" class="fa fa-twitter icon TW"></a>
+              <a href="#" class="fa fa-vk icon VK"></a>
+            </div>
+            <div class="flag">
+              <div id="flag" class="usFlag">
+                <a href="#">
+                  <img src="img/usFlag.png">
+                  <p class="orange">Inglish
+                    <span class="fa fa-caret-down caret orange"></span>
+                  </p>
+                </a>
+              </div>
+              <div id="flag" class="ruFlag">
+                <a href="#">
+                  <img src="img/ruFlag.png">
+                  <p class="orange">Русский
+                    <span class="fa fa-caret-down caret orange"></span>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <hr>
+    <div class="secondSection">
+      <img src="img/logo.png">
+      <div class="mainRegistration">
+        <form>
+          <input class="blueButton buttonReg" type="submit" value="Registration">
+          <input class="userName" type="text" placeholder="Username">
+          <div class="password">
+            <input type="text" placeholder="Password">
+            <a class="orange forgot" href="#">Forgot your password?</a>
+          </div>
+          <input class="orangeButton login" type="submit" value="Login">
+        </form>
+      </div>
+    </div>
+    <hr>
+    <div class="thirdSection">
+      <div class="container">
+        <img src="img/logo3section.png">
+      </div>
+    </div>
+    <hr>
+    <div class="fourthSection">
+      <div class="container">
+        <div class="lastWinners">
+          <a href="#"><p class="textLW stillOrange">Last winners</p></a>
+          <a href="#" class="fa fa-angle-left angle stillOrange"></a>
+          <div class="blockLW">
+            <img src="img/ghotic.png">
+            <p>GHOTIC<br><span>185.00$</span><br>PlayerName</p>
+          </div>
+          <div class="blockLW">
+            <img src="img/gameOfThrones.png">
+            <p>GHOTIC<br><span>185.00$</span><br>PlayerName</p>
+          </div>
+          <div class="blockLW">
+            <img src="img/robyn.png">
+            <p>GHOTIC<br><span>185.00$</span><br>PlayerName</p>
+          </div>
+          <a href="#" class="fa fa-angle-right angle stillOrange"></a>
+        </div>
+        <div class="jackpot">
+          <a href="#"><p class="textJ stillOrange">Jackpot</p></a>
+          <div class="coin gold">
+            <img src="img/golden.png">
+            <p>7 859 352</p>
+          </div>
+          <div class="coin silver">
+            <img src="img/silver.png">
+            <p>2 148 759</p>
+          </div>
+          <div class="coin bronze">
+            <img src="img/bronze.png">
+            <p>1 589 654</p>
+          </div>
+        </div>
+      </div>
+    <hr>
+    <div class="fifthSection">
+      <div class="container">
+        <table>
+          <tr>
+            <td class="textIcons">
+              <a href="#">
+                <img src="img\POPULAR.png">
+                <p class="stillOrange">POPULAR</p>
+              </a>
+            </td>
+            <td class="textIcons">
+              <a href="#">
+                <img src="img\NEW ICON.png">
+                <p class="stillOrange">NEW</p>
+              </a>
+            </td>
+            <td class="textIcons">
+              <a href="#">
+                <img src="img\SLOT GAME.png">
+                <p class="stillOrange">SLOT GAMES</p>
+              </a>
+            </td>
+            <td class="textIcons">
+              <a href="#">
+                <img src="img\CARDS.png">
+                <p class="stillOrange">CARD GAMES</p>
+              </a>
+            </td>
+            <td class="textIcons">
+              <a href="#">
+                <img src="img\ROULETTE.png">
+                <p class="stillOrange">ROULETTE</p>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td class="sortBy">
+              <a href="#">SORT BY:   POPULARITY   |    A-Z</a>
+            </td>
+            <td></td>
+            <td></td>
+            <td colspan="2">
+              <div>
+                <form>
+                  <div class="search">
+                    <input id="search" type="search" placeholder="Search for game ...">
+                    <label for="search" class="fa fa-search stillOrange">
+                  </div>
+                </form>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img/LuckyMagic.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Lucky Magic</p>
+            </td>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img\AnubisSecret.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Anubis’ secret</p>
+            </td>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img\DreamOfKnight.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Dream of Knight</p>
+            </td>
+            <td colspan="2" rowspan="2">
+              <a href="#"><p class="buttonPromotions">Promotions</p></a>
+              <div class="slider">
+                <a href="#"><img src="img\slider.png"></a>
+                <div class="bull">
+                  <a href=#>&bull;</a>
+                  <a href=#>&bull;</a>
+                  <a href=#>&bull;</a>
+                  <a href=#>&bull;</a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img/LuckyMagic.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Lucky Magic</p>
+            </td>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img\AnubisSecret.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Anubis’ secret</p>
+            </td>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img\DreamOfKnight.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Dream of Knight</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img/LuckyMagic.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Lucky Magic</p>
+            </td>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img\AnubisSecret.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Anubis’ secret</p>
+            </td>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img\DreamOfKnight.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Dream of Knight</p>
+            </td>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img\Submarine.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Submarine adventure</p>
+            </td>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img\MoneyScent.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>The big money scent</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img/LuckyMagic.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Lucky Magic</p>
+            </td>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img\AnubisSecret.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Anubis’ secret</p>
+            </td>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img\DreamOfKnight.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Dream of Knight</p>
+            </td>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img\Submarine.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Submarine adventure</p>
+            </td>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img\MoneyScent.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>The big money scent</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img/LuckyMagic.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Lucky Magic</p>
+            </td>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img\AnubisSecret.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Anubis’ secret</p>
+            </td>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img\DreamOfKnight.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Dream of Knight</p>
+            </td>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img\Submarine.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>Submarine adventure</p>
+            </td>
+            <td>
+              <div class="game" id="game">
+                <a href="#">
+                  <img src="img\MoneyScent.png">
+                </a>
+                <div id="mask"></div>
+                <div class="actionContainer" id="actionContainer">
+                  <a class="blueButton" href="#">Play now</a>
+                  <a class="orangeButton" href="#">Demo</a>
+                </div>
+              </div>
+              <p>The big money scent</p>
+            </td>
+          </tr>
+        </table>
+        <div class="moreGame">
+          <a class="blueButton" href="#">More games</a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer>
+      <ul>
+        <li><a href="#">About casino</a></li>
+        <li><a href="#">Terms and conditions</a></li>
+        <li><a href="#">Responsible gaming</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+      <hr class="line">
+      <div class="footerIcons">
+        <img src="img\MASTERCARD.png">
+        <img src="img\YANDEX.png">
+        <img src="img\hover VISA.png">
+        <img src="img\LIQPAY.png">
+        <img src="img\QIWI.png">
+      </div>
+      <hr class="line">
+      <p>© 2015 . All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

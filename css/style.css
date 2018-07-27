@@ -1,0 +1,415 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.container {
+  max-width: 1024px;
+  margin: auto;
+}
+.orange:hover, .stillOrange {
+  color: #ffce81;
+  text-shadow: 0 0 5px #ff7600, 0 0 10px #ff7600, 0 0 15px #ffffff, 0 0 20px #ed143d, 0 0 35px #ed143d, 0 0 40px #ed143d, 0 0 50px #ed143d, 0 0 75px #ed143d;
+}
+.blue {
+  color: #81fbff;
+  text-shadow: 0 0 5px #6ef2ff, 0 0 10px #6ef2ff, 0 0 15px #ffffff, 0 0 20px #2700ff, 0 0 35px #2700ff, 0 0 40px #2700ff, 0 0 50px #2700ff, 0 0 75px #2700ff;
+}
+header {
+  background-color: #111111;
+}
+.menu {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 9px;
+  }
+.menu li {
+  display: inline-block;
+  font-size: 11px;
+  margin: 5px;
+}
+.menu a {
+  color: #7e7d7d;
+}
+a {
+  text-decoration: none;
+}
+.registration, .icons, .flag {
+  display: inline-block;
+}
+.menu, .secondMenu, .secondMenu, .flag {
+  display: inline-block;
+}
+.secondMenu {
+  margin: 6px;
+  margin-left: 139px;
+}
+.secondMenu form {
+  display: inline-block;
+}
+.secondMenu select {
+  outline: none;
+  border: none;
+  color: #7e7d7d;
+  background-color: rgba(0,0,0,0)
+}
+.secondMenu select:hover {
+  color: #ffce81;
+  text-shadow: 0 0 5px #ff7600, 0 0 10px #ff7600, 0 0 15px #ffffff, 0 0 20px #ed143d, 0 0 35px #ed143d, 0 0 40px #ed143d, 0 0 50px #ed143d, 0 0 75px #ed143d;
+}
+.secondMenu option {
+  color: #7e7d7d;
+  background-color: #000000;
+}
+.secondMenu option {
+  color: #ffce81;
+  text-shadow: 0 0 5px #ff7600, 0 0 10px #ff7600, 0 0 15px #ffffff, 0 0 20px #ed143d, 0 0 35px #ed143d, 0 0 40px #ed143d, 0 0 50px #ed143d, 0 0 75px #ed143d;
+}
+.icon {
+  color: #ffffff;
+  background-color: #656666;
+  margin: 4px;
+  border-radius: 5px;
+}
+.F {
+  padding: 7px 8.95px;
+}
+.TW {
+  padding: 7px 7.33px;
+}
+.VK {
+  padding: 7px 6.7px;
+}
+.icons .fa {
+  font-size: 9px !important;
+}
+.icon:hover {
+  color: #793600;
+  background-color: #ffce81;
+  box-shadow: #ae4937 0 0 11px 7px;
+}
+.flag a, .flag p {
+  color: #7e7d7d;
+}
+.ruFlag {
+  display: none;
+  position: relative;
+}
+.usFlag {
+  display: block;
+}
+.ruFlag:visited {
+  display: block;
+}
+.flag img {
+  vertical-align: middle;
+}
+.caret, .flag p, .flag img {
+  display: inline-block;
+}
+hr {
+  margin: 0;
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, #438db2, #77bbdc, #2c6f91);
+}
+.secondSection {
+  background-color: #000000;
+  display: table;
+  width: 100%;
+}
+.secondSection img {
+  display: table-cell;
+}
+.mainRegistration {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 39px;
+}
+.mainRegistration form {
+  display: table;
+}
+ .buttonReg, .userName, .password, .login {
+  display: table-cell;
+  margin: 10px;
+}
+.password input[type="text"] {
+  display: block;
+}
+.forgot {
+  font-size: 10px;
+  font-style: italic;
+}
+.blueButton {
+  color: #81fbff;
+  border: 2px solid #81fbff;
+  background-color: #1c3999;
+  border-radius: 3px;
+  box-shadow: inset #2e65ae 0 0 5px 3px,
+                    #2e65ae 0 0 12px 4px;
+  text-transform: uppercase;
+}
+.blueButton:hover {
+  color: #1c3999;
+  border: 2px solid #81fbff;
+  background-color: #81fbff;
+  box-shadow: inset #1c3999 0 0 5px 3px,
+                    #1c3999 0 0 12px 4px;
+}
+.orangeButton {
+  color: #ffce81;
+  border: 2px solid #ffce81;
+  background-color: #ba4515;
+  border-radius: 3px;
+  box-shadow: inset #ae4937 0 0 5px 3px,
+                    #ae4937 0 0 12px 4px;
+  text-transform: uppercase;
+}
+.orangeButton:hover {
+  color: #ba4515;
+  border: 2px solid #ffce81;
+  background-color: #ffce81;
+  box-shadow: inset #ba4515 0 0 5px 3px,
+                    #ba4515 0 0 12px 4px;
+}
+input[type="text"] {
+  max-width: 112px;
+  border-radius: 3px;
+  border: 0;
+  height: 25px;
+}
+.forgot {
+  color: #7e7d7d;
+}
+.thirdSection {
+  background-image: url(../img/background.png);
+}
+.thirdSection img {
+  display: block;
+  margin: auto;
+}
+.fourthSection {
+  background-color: #000000;
+  text-align: center;
+}
+.fourthSection i, .textLW, .textJ {
+  margin: 0;
+  text-transform: uppercase;
+}
+.textJ {
+  margin-right: 382px;
+}
+.textLW {
+  margin: 10px 314px 10px 0;
+}
+P {
+  color: #ffffff;
+  font-size: 11px;
+  margin: 0;
+}
+.blockLW p span {
+  color: #b2a359 !important;
+}
+.blockLW, .angle, .blockLW p, .coin, .coin p, .jackpot, .lastWinners{
+  display: inline-block;
+}
+.blockLW img, .blockLW p {
+  vertical-align: middle;
+}
+.angle {
+  vertical-align: middle;
+}
+.angle:hover {
+
+}
+.coin img {
+  vertical-align: middle;
+}
+.coin p {
+  font-size: 19px;
+  font-weight: bold;
+}
+.gold p {
+  background: linear-gradient(to top, #c88412, #feea87, #bf7928);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.silver p {
+  background: linear-gradient(to top, #525253, #fefdfd, #787879);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bronze p {
+  background: linear-gradient(to top, #a75424, #feedca, #9e5424);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fifthSection {
+  background-image: url(../img/pattern.png);
+  background-repeat: repeat;
+}
+.textIcons {
+  border: 1px solid #ffce81;
+  border-radius: 3px;
+  box-shadow: inset #ae4937 0 0 12px 2px,
+                    #ae4937 0 0 12px 2px;
+}
+.textIcons img, .textIcons p {
+  display: inline-block;
+}
+.textIcons img {
+  vertical-align: middle;
+}
+.sortBy a {
+  font-size: 11px;
+  color: #ffffff;
+}
+.search {
+  float: right;
+  background-color: #000000;
+  border: 3px solid #81fbff;
+  border-radius: 3px;
+  height: 30px;
+  box-shadow: #2e65ae 0 0 12px 5px;
+}
+.search input[type="search"] {
+  color: #81fbff;
+  background-color: #000000;
+  border: 0;
+  outline: none;
+  vertical-align: -webkit-baseline-middle;
+  width: 213px;
+  padding-left: 10px;
+}
+.search label {
+  vertical-align: -webkit-baseline-middle;
+  padding-right: 8px;
+}
+.buttonPromotions {
+  background-color: #d6f0ff;
+  color: #10154d;
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+  border: 7px solid #d6f0ff;
+  border-radius: 3px;
+  box-shadow: #2e65ae 0 0 12px 5px;
+  margin: 0;
+}
+.buttonPromotions:hover {
+  color: #d6f0ff;
+  background-color: #10154d;
+  box-shadow: #2e65ae 0 0 12px 5px;
+  border: 7px solid #10154d;
+}
+.bull {
+  right: 142px;
+  position: relative;
+  bottom: 244px;
+}
+.bull a {
+  color: #ffffff;
+  font-size: 35px;
+  text-shadow: 2px 2px 5px #000000;
+}
+.bull a:hover {
+  text-shadow: 0 0 20px #ffffff;
+}
+.moreGame {
+  padding: 27px;
+}
+table {
+  margin: auto;
+  border-spacing: 16px 8px;
+}
+#mask {
+    background-color: rgba(0, 0, 0, 0.71);
+    height: 65%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+.actionContainer{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.71);
+    height: 122px;
+    position: relative;
+    top: -126px;
+  }
+#actionContainer {
+  display: none;
+}
+.game {
+  height: 122px;
+}
+td p {
+  color: #ffffff;
+  font-size: 11px;
+  margin: 14px;
+}
+.game .actionContainer {
+  position: relative;
+  bottom: 90px;
+  display: none;
+}
+.actionContainer .blueButton {
+  display: block;
+  margin: 0 auto 10px auto;
+  line-height: 23px;
+  width: 95px;
+  height: 25px;
+  position: relative;
+  top: 35px;
+}
+.actionContainer .orangeButton {
+  display: block;
+  margin: auto;
+  width: 68px;
+  height: 20px;
+  position: relative;
+  top: 31px;
+}
+footer {
+  background-color: #000000;
+}
+footer li {
+  display: inline-block;
+  border-right: 1px solid #7e7d7d;
+  padding-right: 10px;
+  font-weight: bold;
+  font-size: 11px;
+}
+footer li a, footer p {
+  color: #7e7d7d;
+  text-transform: uppercase;
+}
+footer ul {
+  padding: 0;
+  text-align: center;
+}
+.footerIcons {
+  text-align: center;
+}
+.line {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, #000000, #77bbdc, #000000);
+}
+.footerIcons img {
+  margin: 15px;
+}
+footer p {
+  text-align: center;
+  padding-bottom: 190px;
+  margin-top: 15px;
+}
